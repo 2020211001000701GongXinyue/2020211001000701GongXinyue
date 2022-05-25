@@ -78,6 +78,8 @@
     <welcome-file-list>
         <welcome-file>home</welcome-file>
     </welcome-file-list>
+
+
     <filter>
         <filter-name>HelloFilter</filter-name>
         <filter-class>com.gongxinyue.filter.HelloFilter</filter-class>
@@ -86,4 +88,14 @@
         <filter-name>HelloFilter</filter-name>
         <url-pattern>/hello</url-pattern>
     </filter-mapping>
+
+    <servlet>
+        <servlet-name>LifeCycleServlet1</servlet-name>
+        <servlet-class>com.gongxinyue.lab1.LifeCycleServlet1</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>LifeCycleServlet1</servlet-name>
+        <url-pattern>/Life</url-pattern>
+    </servlet-mapping>
+
 </web-app>
